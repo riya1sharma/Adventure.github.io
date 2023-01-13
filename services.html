@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>services</title>
+    <meta charset="utf-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">]
+    <link rel="stylesheet" type="text/css" href="css/style.css" href"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<style>
+    *{
+        margin:0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        width: 100%;
+        background-color:cornsilk;
+
+    }
+    .title h1{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 42px;
+    }
+    .title h1::after{
+        content: "";
+        height: 4px;
+        width: 230px;
+        background-color: #000;
+        display: block;
+        margin: auto;
+    }
+    .services{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 75px auto;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px 20px;
+        padding: 20px 20px;
+        background-color:darkcyan;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+    .card h2{
+        font-size: 28px;
+        color:black;
+        margin-bottom: 20px;
+
+    }
+    card. p{
+        font-size: 17px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        color:aliceblue;
+    }
+.button{
+    font-size: 15px;
+    text-decoration: none;
+    color:gold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.button:hover{
+    background-color:crimson;
+    transition: 0.4s ease;
+
+}
+@media screen and (max-width:940px){
+.services{
+    display:flex;
+    flex-direction: column;
+
+}
+.card{
+    width: 85%;
+    display: flex;
+    margin: 20px 0px;
+}
+}
+    </style>
+<body>
+    <div class="section">
+        <div class="title">
+            <h1>Our Services</h1>
+        </div>
+        <div class="services">
+            <div class="card">
+                <div class="icons">
+                    <i class="fas fa-calendar"></i>
+                </div>
+                <h2>Planning</h2>
+                <p>Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, VIP airport lounge access, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car ...</p>
+                <a href="" class="button">Read More</a>
+            </div>
+            <div class="card">
+                <div class="icons">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h2>Renovation</h2>
+                <p>Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, VIP airport lounge access, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car ...</p>
+                <a href="" class="button">Read More</a>
+
+            </div>
+            <div class="card">
+                <div class="icons">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h2>support</h2>
+                <p>Travel agencies can provide outdoor recreation activities, airlines, car rentals, cruise lines, hotels, railways, travel insurance, package tours, insurance, guide books, VIP airport lounge access, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car ...</p>
+                <a href="" class="button">Read More</a>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
