@@ -7,19 +7,18 @@
 .main{ 
      width: 60%; height: 90%;
     border: 5px solid rgba(231, 222, 228, 0.945);
-    background-color: rgb(55, 133, 153);
+    background-color:bisque;
     margin: auto;
     border-radius: 10px;
 }
      .name{
       
-      background-color: rgba(108, 137, 150, 0.781);
-      border: 5px solid rgb(194, 173, 187);
+      background-color:bisque;
+      border-color: black;
       padding: 5px;
       border-radius: 10px;
      }
-     .add{
-        background-color: rgb(55, 133, 153);
+        background-color:bisque
         padding:10px;
         border-radius: 10px;
      }
@@ -31,7 +30,7 @@
      .buy button{
         border-radius: 10px;
         color:aqua;
-        background-color:rgba(236, 243, 233, 0.973);
+        background-color:black;
         padding: 10px;
         margin: 10px;
      }
@@ -41,7 +40,7 @@
     <body>
         <div class="main">
         <form>
-             <h1>Step 1:Your details</h1>
+             <U><h1>Step 1:Your details</h1></U>
            <div class="name">
         <label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="text" name="fname" placeholder="First and last name"><br><br>
@@ -56,25 +55,20 @@
         <input type="number" name="phone" placeholder="Eg. +447500000000">
         </div> 
 
-        <h1>Step 2: Where you want to</h1>
-        <div class="add">
-            <label>Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="add" id="add" cols="30" rows="10"></textarea>
-           
-        </div>
-        <div class="name">
+        
+        <br><div class="name">
             <label>Post code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="post" ><br><br>
+            <input type="text" name="post"placeholder="1237654"><br><br>
         </div>
         <div class="name">
             <label>Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="country"><br><br>
+            <input type="text" name="country" placeholder="INDIA"><br><br>
         </div>
 
-        <h1>Step 3: Card Details</h1>
+        <U><h1>Step 2: Card Details</h1></U>
 
         <div class="card">
-            <label>Card type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <br><br> <h3><label>Card type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></h3>
            <br><br>
             <input type="radio" value="visa" name="card " > <img width="50px" height="20px" src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg"> VISA
             <input type="radio" value="AmEx" name="card " > <img width="50px" height="20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdymju7fO_xVoveAF6OFeVRCF7_D0oJPizzN5IxtvBHg&s"> AmEx
@@ -83,11 +77,11 @@
         <br><br>
         <div class="name">
             <label>Card number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="card number" ><br><br>
+            <input type="text" name="card number"placeholder="9077543578987564" ><br><br>
         </div>
         <div class="name">
             <label>Security code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="secuirity code"><br><br>
+            <input type="text" name="secuirity code"placeholder="567ABC"><br><br>
         </div>
         <div class="name">
             <label>Card holder name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
